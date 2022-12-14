@@ -1,0 +1,19 @@
+menu{
+ list-style: none;
+ text-align: center;
+ padding: 0;
+ background-color: rgb(37, 37, 39);
+}
+menu li{
+    display: inline;
+}
+menu a{
+    color:#fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;   
+}
+menu li a:hover{
+   background-color: rgb(24, 139, 233);
+}

@@ -1,0 +1,47 @@
+.mainmenubtn {
+    height: 100px;
+    width: 2000px;
+    background-color: rgb(37, 37, 39);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: rgb(37, 37, 39);
+    padding: 25px;
+    
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(37, 37, 39);
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.dropdown-child a:hover{
+    background-color: rgb(24, 139, 233);
+        transition: 0.4s;
+        opacity: 0.7;
+        padding: 25px;
+}
+.mainmenubtn, .dropdown-child{
+    position: fixed;
+    left: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+    
+  }
